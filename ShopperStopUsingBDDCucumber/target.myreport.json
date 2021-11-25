@@ -1,0 +1,214 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-18T08:37:40.852Z",
+        "line": 2,
+        "name": "Positive Sign in",
+        "description": "",
+        "id": "login-feature;positive-sign-in",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4733258300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user must be on home page",
+            "match": {
+              "location": "com.stepdef.LogInStepDef.user_must_be_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 570448900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user click on heart icon",
+            "match": {
+              "location": "com.stepdef.RegisterStepDef.user_click_on_heart_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1340131800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter mobile number registered",
+            "match": {
+              "location": "com.stepdef.LogInStepDef.user_enter_mobile_number_registered()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116688500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click send otp",
+            "match": {
+              "location": "com.stepdef.LogInStepDef.user_click_send_otp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d95.0.4638.69)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LIN76004824\u0027, ip: \u0027192.168.0.104\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\\Users\\SARIRAJ\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54188}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ec1c80dd02edf54ed2854f34b9fbdb6d\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat com.stepdef.LogInStepDef.user_enters_continue_in_otp_page(LogInStepDef.java:44)\r\n\tat ✽.user enters continue in OTP page(file:///C:/Users/SARIRAJ/eclipse-workspace/Cucumber_bdd/ShopperStopUsingBDDCucumber/features/Login.feature:7)\r\n",
+              "duration": 30090732800,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "user enters continue in OTP page",
+            "match": {
+              "location": "com.stepdef.LogInStepDef.user_enters_continue_in_otp_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User is on home page",
+            "match": {
+              "location": "com.stepdef.RegisterStepDef.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:features/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-18T08:38:17.798Z",
+        "line": 2,
+        "name": "Positive Sign Up",
+        "description": "",
+        "id": "registration-feature;positive-sign-up",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3426924300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user must be on home page",
+            "match": {
+              "location": "com.stepdef.LogInStepDef.user_must_be_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1755824400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user click on heart icon",
+            "match": {
+              "location": "com.stepdef.RegisterStepDef.user_click_on_heart_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 361034700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click sign in with email",
+            "match": {
+              "location": "com.stepdef.RegisterStepDef.user_click_sign_in_with_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82777200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click sign up",
+            "match": {
+              "location": "com.stepdef.RegisterStepDef.user_click_sign_up()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 466065900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters all the credentials",
+            "match": {
+              "location": "com.stepdef.RegisterStepDef.user_enters_all_the_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63249100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter continue",
+            "match": {
+              "location": "com.stepdef.RegisterStepDef.user_enter_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d95.0.4638.69)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LIN76004824\u0027, ip: \u0027192.168.0.104\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\\Users\\SARIRAJ\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54321}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9201e6eee31b8b052ea84d34a6544ec6\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat com.stepdef.RegisterStepDef.user_enter_continue_in_otp_page(RegisterStepDef.java:67)\r\n\tat ✽.user enter continue in OTP page(file:///C:/Users/SARIRAJ/eclipse-workspace/Cucumber_bdd/ShopperStopUsingBDDCucumber/features/Registration.feature:9)\r\n",
+              "duration": 30021694200,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "user enter continue in OTP page",
+            "match": {
+              "location": "com.stepdef.RegisterStepDef.user_enter_continue_in_otp_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User is on home page",
+            "match": {
+              "location": "com.stepdef.RegisterStepDef.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Registration Feature",
+    "description": "",
+    "id": "registration-feature",
+    "keyword": "Feature",
+    "uri": "file:features/Registration.feature",
+    "tags": []
+  }
+]
